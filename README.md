@@ -1,2 +1,2 @@
-# JS-Basic
-JS 기초
+# JS-Basics
+JavaScript Basics
