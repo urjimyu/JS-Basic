@@ -1,2 +1,2 @@
 # JS-Basics
-JavaScript Basics
+- Vanilla JS - Chrome Clone Coding(Normad Coders)
