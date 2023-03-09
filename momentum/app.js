@@ -1,11 +1,9 @@
 const player = {
     name: "jimyu",
-    points: 10,
-    fat: true,
+    sayHi: function(otherPersonName){
+        console.log("hi!" + otherPersonName + "nice to meet you");
+    }
 }
 
 console.log(player.name);
-console.log(player["name"])
-// property 추가
-player.lastName = "potato";
-console.log(player);
+player.sayHi("meow");
