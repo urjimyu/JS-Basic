@@ -1,13 +1,11 @@
-const a = 5;
-const b = "2";
+const player = {
+    name: "jimyu",
+    points: 10,
+    fat: true,
+}
 
-let myName = "jimyu";
-
-console.log(a + b);
-console.log(a * b);
-console.log(a / b);
-console.log("hello" + myName);
-
-myName = "jimeow";
-
-console.log("your new name is " + myName);
+console.log(player.name);
+console.log(player["name"])
+// property 추가
+player.lastName = "potato";
+console.log(player);
