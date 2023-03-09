@@ -1,11 +1,11 @@
-const daysOfWeek = ["mon", "tue", "wed", "thur", "fri", "sat"];
+const player = {
+    name: "jimyu",
+    points: 10,
+    fat: true,
+}
 
-// Get Item from Array
-console.log(daysOfWeek[5]);
-
-// Add one more day to the array
-daysOfWeek.push("sun");
-
-console.log(daysOfWeek);
-
-const toBuy = ["potato", "tomato", "pizza"];
+console.log(player.name);
+console.log(player["name"])
+// property 추가
+player.lastName = "potato";
+console.log(player);
