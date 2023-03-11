@@ -1,2 +1,2 @@
 # JS-Basics
-- Vanilla JS - Chrome Clone Coding(Normad Coders)
+- Vanilla JS - Chrome Clone Coding(Nomad Coders)
