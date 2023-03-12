@@ -1,9 +1,17 @@
-const player = {
-    name: "jimyu",
-    sayHi: function(otherPersonName){
-        console.log("hi!" + otherPersonName + "nice to meet you");
+const calculator = {
+    plus: function(a, b) {
+        return (a + b);
+    },
+    minus: function(a, b) {
+        return (a - b);
+    },
+    divide: function(a, b) {
+        return (a / b);
+    },
+    power: function(a, b) {
+        return (a ** b);
+    },
+    times: function(a, b) {
+        return (a * b);
     }
 }
-
-console.log(player.name);
-player.sayHi("meow");
