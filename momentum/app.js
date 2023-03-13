@@ -6,6 +6,8 @@ if (isNaN(age)) {
     console.log("You are too young.");
 } else if (age >= 18 && age <= 50) {
     console.log("You can drink.");
-} else {
-    consolelog("You can drink.");
+} else if (age > 50 && age <= 80) {
+    consolelog("You can't drink.");
+} else if (age > 80) {
+    console.log("You're free to do whatever you want.")
 }
