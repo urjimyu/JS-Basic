@@ -1,6 +1,11 @@
-const age = 96;
-function calculateKrAge(ageOfForeigner){
-    return ageOfForeigner + 2;
-}
+const age = parseInt(prompt("How old are you?"));
 
-const krAge = calculateKrAge(age);
+if (isNaN(age)) {
+    console.log("Please write a number.");
+} else if (age < 18) {
+    console.log("You are too young.");
+} else if (age >= 18 && age <= 50) {
+    console.log("You can drink.");
+} else {
+    consolelog("You can drink.");
+}
