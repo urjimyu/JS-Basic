@@ -1,15 +1,10 @@
-const h1 = document.querySelector("div.hello:first-child h1");
+const loginForm = document.querySelector(".login-form");
+const loginInput = loginForm.querySelector("input");
+const loginButton = loginForm.querySelector("button");
 
-function handleTitleClick(){
-    const currentColor = h1.style.color;
-    let newColor;
-
-    if(currentColor === "blue"){
-        newColor = "tomato";
-    } else{
-        newColor = "blue";
-    }
-    h1.style.color = newColor;
+function onLoginButtonClick() {
+    const username = loginInput.value;
+    console.log(username);
 }
 
-h1.addEventListener("click", handleTitleClick);
+loginButton.addEventListener("click", onLoginButtonClick);
