@@ -8,13 +8,8 @@ function onLoginSubmit(event) {
     event.preventDefault();
     loginForm.classList.add(HIDDEN_CLASSNAME);
     const username = loginInput.value;
-    greeting.innerText = "Hello " + username;
+    greeting.innerText = Hello `@{username}`;
     greeting.classList.remove(HIDDEN_CLASSNAME);
 }
 
-function handleLinkClick(event) {
-    alert("clicked!");
-}
-
-loginButton.addEventListener("submit", onLoginSubmit);
-link.addEventListener("click", handleLinkClick);
+loginForm.addEventListener("submit", onLoginSubmit);
