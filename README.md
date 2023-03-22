@@ -98,3 +98,15 @@
         - classList 사용하기
             - toggle function : class list에 class name 존재하는지 확인해줌. 특정 클래스명이 있으면 제거, 없으면 추가.
                 - 공식 설명에 따르면 토큰을 확인하는 함수
+                
+    # 4. Login
+
+    - 유저에게 받은 정보를 화면에 표시하기
+    - HTML 만들고 거기 엘리먼트를 가져와서 하는 것
+    - 조건문 일일이 치는 것보다는 브라우저 도움을 받을 수 있으면 받는 게 좋다
+    - input 안에 있는 button 누르거나 type이 submit인 input을 클릭하면 입력값이 submit 된다.
+    - local storage : 브라우저에 뭔가 저장 가능하게 해줌.
+        - 개발자도구 사용해서 local storage 확인 가능
+        - localStorage.setItem(”키값”, “내용”)
+        - localStorage.getItem(”키값”) : 값 불러오기
+        - localStorage.removeItem(””)
