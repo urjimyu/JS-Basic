@@ -110,3 +110,15 @@
         - localStorage.setItem(”키값”, “내용”)
         - localStorage.getItem(”키값”) : 값 불러오기
         - localStorage.removeItem(””)
+
+    # 5. Clock
+
+    - Intervals
+    - 파일 분리해서 관리하는 방법(divide and conquer)
+    - Interval : 매번 일어나야 하는 무언가
+        - ex) 매 2초
+        - 내장함수 : `setInterval()`, `setTimeout()`
+    - Timeout
+    - padStart : 문자열 앞쪽에 패딩 채워달라
+        - padEnd는 뒷쪽에 패딩 추가
+    - 형변환 : String() 이런 식으로
